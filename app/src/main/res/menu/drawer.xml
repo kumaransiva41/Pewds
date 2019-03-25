@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/search" android:checkableBehavior="single">
+        <item
+            android:id="@+id/SearchPackages"
+            android:title="Search Packages"
+            ></item>
+    </group>
+
+
+    <group android:id="@+id/build" android:checkableBehavior="single">
+        <item
+            android:id="@+id/BuildCustomPackages"
+            android:title="Build a Package"
+            ></item>
+    </group>
+
+    <group android:id="@+id/cancel" android:checkableBehavior="single">
+        <item
+            android:id="@+id/CancelPackages"
+            android:title="Cancel Booked Package"
+            ></item>
+    </group>
+    <group android:id="@+id/booked" android:checkableBehavior="single">
+        <item
+            android:id="@+id/ViewBookedPackages"
+            android:title="View Booked Packages"
+            ></item>
+    </group>
+    <group android:id="@+id/domesticguide" android:checkableBehavior="single">
+        <item
+            android:id="@+id/DomesticGuide"
+            android:title="Information"
+            ></item>
+    </group>
+</menu>
